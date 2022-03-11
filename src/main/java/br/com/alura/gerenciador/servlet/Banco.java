@@ -42,5 +42,17 @@ public class Banco {
 			}
 		}
 	}
+	
+	public Empresa buscaEmpresaPelaId(Integer id) {
+		Iterator<Empresa> it = lista.iterator();
+		
+		while(it.hasNext()) {
+			Empresa empresa = it.next();
+			if(empresa.getId() == id) {
+				return empresa;
+			}
+		}
+		return null;
+	}
 
 }

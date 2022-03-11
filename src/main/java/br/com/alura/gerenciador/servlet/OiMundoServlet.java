@@ -16,6 +16,12 @@ public class OiMundoServlet extends HttpServlet{
 	 * 
 	 */
 	private static final long serialVersionUID = -4628190983452256105L;
+	
+	// middleware - tomcat
+	
+	public OiMundoServlet() {
+		System.out.println("Criando Oi Mundo Servlet");
+	}
 
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws IOException {
