@@ -11,6 +11,7 @@ public class NovaEmpresaForm implements Acao{
 
 	public String executa(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
+		
 		return "forward:formNovaEmpresa.jsp";
 	}
 }

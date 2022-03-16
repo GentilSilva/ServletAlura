@@ -7,7 +7,7 @@ public class Usuario {
 	
 	
 	public String getLogin() {
-		return login;
+		return this.login;
 	}
 	public void setLogin(String login) {
 		this.login = login;
@@ -27,7 +27,7 @@ public class Usuario {
 		if(!this.senha.equals(senha)) {
 			return false;
 		}
-		return false;
+		return true;
 	}
 	
 }

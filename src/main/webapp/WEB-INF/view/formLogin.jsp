@@ -14,7 +14,7 @@
 	<body>
 		<form action="${linkUnicaEntradaServlet}" method="post">
 			Login: <input type="text" name="login" />
-			Password: <input type="password" name="password" />
+			Password: <input type="password" name="senha" />
 			<input type="submit" value="Entrar">
 			<input type="hidden" name="acao" value="Login" />
 	

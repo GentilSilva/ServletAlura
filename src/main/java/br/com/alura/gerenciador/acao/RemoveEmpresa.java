@@ -11,6 +11,7 @@ public class RemoveEmpresa implements Acao{
 
 	public String executa(HttpServletRequest request, HttpServletResponse response) throws IOException {
 		
+		
 		System.out.println("Removendo empresa");
 		
 		String paramId = request.getParameter("id");
