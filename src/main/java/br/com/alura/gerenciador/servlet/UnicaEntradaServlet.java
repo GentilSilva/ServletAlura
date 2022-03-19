@@ -32,14 +32,14 @@ public class UnicaEntradaServlet extends HttpServlet {
 		
 		
 //		Verifica se o usuário fez o login e bloqueia o acesso a todas as páginas a quem não fez
-		HttpSession sessao = request.getSession();
-		boolean usuarioNaoEstaLogado = (sessao.getAttribute("usuarioLogado") == null);
-		boolean ehUmaAcaoProtegida = !(paramAcao.equals("Login") || paramAcao.equals("LoginForm"));
-		
-		if(ehUmaAcaoProtegida && usuarioNaoEstaLogado) {
-			response.sendRedirect("unicaEntrada?acao=LoginForm");
-			return;
-		}
+//		HttpSession sessao = request.getSession();
+//		boolean usuarioNaoEstaLogado = (sessao.getAttribute("usuarioLogado") == null);
+//		boolean ehUmaAcaoProtegida = !(paramAcao.equals("Login") || paramAcao.equals("LoginForm"));
+//		
+//		if(ehUmaAcaoProtegida && usuarioNaoEstaLogado) {
+//			response.sendRedirect("unicaEntrada?acao=LoginForm");
+//			return;
+//		}
 		
 		
 				
